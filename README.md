@@ -1,9 +1,10 @@
-# Create-Qemu-with-Cmd-in-Windows
-
+# Create-Qemu-with-2-method
 Hi, this github project is created by Ngoc Hai Windows if you already know how to install
 this will useless
 
 This create Step by Step
+
+Method 1:
 
 1. Install qemu in qemu.org
 
@@ -20,6 +21,22 @@ before go to step 6 make sure you download ISO file of os to ready
 6. type: qemu-system-x86_64.exe -m 1G -smp 2 -boot order=dc -hda windows[ubuntu ; Macos or linux].img -cdrom “[your place you installed ISO like: D:\Iso\windows.iso]"
 
 Cmd will auto open qemu-system-x86_64.exe, This VM will boot on cd\dvd to setup
+
+Method 2:
+
+1. download qtemu from this site x64 only [offical link download doesnt exist]
+
+https://sourceforge.net/projects/qtemu/
+
+2. when you installed qtemu, create new kvm [that program doesnt have windows 10, 8, 7... choose other]
+
+before go to step 3, like the method 1. Download iso file
+
+3. click cd/dvd from the kvm you created
+
+now you can use it, click start to setup
+
+____________________________________________
 
 If you don't know, this video will help you:
 
