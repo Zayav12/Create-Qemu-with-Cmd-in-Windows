@@ -35,9 +35,9 @@ Cmd will auto open qemu-system-x86_64.exe, This VM will boot on cd\dvd to setup
 
 1. link:
 
+*https://www.carlavilla.es/qtemu/qtemu_setup_x86_64.exe
 
-
-2. when you installed qtemu, create new kvm [that program doesnt have windows 10, 8, 7... choose other]
+2. when you installed qtemu, create new kvm
 
 before go to step 3, like the method 1. Download iso file
 
